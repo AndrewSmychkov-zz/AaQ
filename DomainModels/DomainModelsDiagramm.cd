@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DomainModels.Models.Answer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Answer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DomainModels.Models.GlossaryItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAgAAAEAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GlossaryItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DomainModels.Models.Package" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQACAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Package.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DomainModels.Models.Question" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAACAAAAAACAAAQAAACAAAAAA=</HashCode>
+      <FileName>Models\Questions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DomainModels.Models.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorAnswer">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorBase&lt;T&gt;">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAEAEAACIAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorFactory">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIABAAgBAAACAACAQAAAEIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorPackage">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorQuestion">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModels.Validators.ValidatorUser">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\ValidatorUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DomainModels.Interface.IAnswerModel" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IAnswerModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Interface.IGlossaryItemModel" Collapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IGlossaryItemModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Interface.IPackageModel" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IPackageModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Interface.IQuestionModel" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAACAAAAAA=</HashCode>
+      <FileName>Interface\IQuestionsModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Interface.IUserModel" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Interface\IUserModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Validators.IValidatorObject&lt;T&gt;">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\IValidatorObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DomainModels.Validators.IValidatorPrimitives">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validators\IValidatorPrimitives.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<WebUI.Models.MyPoll>
+
+<p>
+    @Html.ActionLink("Создать новый опросник", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountQuestions)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountQuestions)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.Id }) |        
+            @Html.ActionLink("Удалить", "Delete", new { id=item.Id }) |        
+            @Html.ActionLink("Просмотреть список вопросов", "MyQuestions", "Question", new { id = item.Id },null) | 
+            @Html.ActionLink("Добавить новый вопрос", "Create", "Question", new { id = item.Id },null)
+        </td>
+    </tr>
+}
+
+</table>
